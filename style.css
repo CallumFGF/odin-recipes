@@ -3,17 +3,20 @@
 
 html,
 body {
-    max-width: 720px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin: auto;
   font-family: "DM Sans", sans-serif;
-  padding-bottom: 80px;
+}
+
+body {
+    padding: 24px;
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+ul, ol {
+    padding: 0px;
 }
 
 li {
@@ -26,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-p {
+p, li {
     font-size: 16px;
     line-height: 24px;
 }
